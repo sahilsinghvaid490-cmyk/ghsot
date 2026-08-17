@@ -1,0 +1,18 @@
+
+spawn:
+  enabled: true
+  interval-minutes: 10
+  lifetime-seconds: 10
+  radius: 5
+  max-spawn-attempts: 10
+
+effects:
+  sound-enabled: true
+  particle-enabled: true
+  darkness-effect: true
+
+messages:
+  reload-success: "Configuration reloaded."
+
+features:
+  announce-spawn: false

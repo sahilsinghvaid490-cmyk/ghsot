@@ -1,0 +1,17 @@
+
+name: GhostGirl
+version: 1.0.0
+main: com.ghostgirl.GhostGirlPlugin
+api-version: '1.21'
+author: OpenAI
+description: Horror ghost girl appearance plugin
+
+commands:
+  ghostgirl:
+    description: GhostGirl administration command
+    permission: ghostgirl.admin
+
+permissions:
+  ghostgirl.admin:
+    default: op
+    description: Allows GhostGirl administration
